@@ -124,6 +124,7 @@ class SQLiteDAO(AbstractDAO):
             id: int
             The generated id value. This apply in INSERT statement, otherwise returns None.
         """
+        
         try:
             conn, cursor = SQLiteDAO.get_connection()
             cursor.execute(sql, values)

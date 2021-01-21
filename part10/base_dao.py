@@ -1,5 +1,5 @@
 """
-    In this version. divide in modules
+    In this version we put each class in a different file
 """
 
 from abc import ABC, abstractmethod

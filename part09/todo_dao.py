@@ -1,6 +1,5 @@
-"""
-In this version we define an AbstractDAO to define methods (like an interface)
-The SQLiteDAO class inherit from AbstractDAO, to keep separated the database implementation
+""" In this version we define an AbstractDAO to define methods (like an interface)
+    The SQLiteDAO class inherit from AbstractDAO, to keep separated the database implementation
 """
 
 import sqlite3

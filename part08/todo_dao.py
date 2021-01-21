@@ -1,7 +1,4 @@
-"""
-In this version. Handle exeptions trow if an error occurs in the
-SQL execution.
-"""
+""" In this version. Handle exeptions trow if an error occurs in the SQL execution. """
 
 import sqlite3
 
@@ -37,11 +34,10 @@ class SQLiteDAO():
 
     @staticmethod
     def close_connection( conn ):
-        """
-        This abstract class is used like template or interface to define methods.
-        The implementation of the abstract methods depends on the required database.
-        Only the close_connection method is define in this class.  The rest of methods
-        are only declared, but not implemented
+        """ This abstract class is used like template or interface to define methods.
+            The implementation of the abstract methods depends on the required database.
+            Only the close_connection method is define in this class.  The rest of methods
+            are only declared, but not implemented
         """
         if conn is not None:
             conn.close()
